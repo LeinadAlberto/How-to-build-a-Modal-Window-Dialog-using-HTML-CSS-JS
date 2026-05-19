@@ -15,7 +15,8 @@ body {
     font-size: 100%;
     font-weight: 400;
     line-height: 1.65;
-    color: $black;
+    color: $white;
+    background-color: $purple;
 }
 
 img {
@@ -26,6 +27,7 @@ img {
 
 a {
     text-decoration: none;
+    color: $white;
 }
 
 .access-hidden {
@@ -36,4 +38,29 @@ a {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+.inner-wrap {
+    max-width: 75rem; // 1200px
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap; // Estudiar
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 1rem;
+    .nav-wrap {
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.main {
+    font-size: 2rem;
+}
+
+.footer {
+    padding: 1rem;
 }
