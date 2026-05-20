@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    /* font-size: 62.5%; */
 }
 
 *, 
@@ -44,7 +45,7 @@ a {
     max-width: 75rem; // 1200px
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap; // Estudiar
+    flex-flow: row wrap; // Combinación de flex-direction y flex-wrap
     align-items: stretch;
     justify-content: space-between;
 }
@@ -59,8 +60,10 @@ a {
 
 .main {
     font-size: 2rem;
+    min-height: calc(100vh - 116.8px);
 }
 
 .footer {
     padding: 1rem;
+    justify-content: center;
 }
