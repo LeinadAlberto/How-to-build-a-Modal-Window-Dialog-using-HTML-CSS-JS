@@ -46,7 +46,7 @@ a {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap; // Combinación de flex-direction y flex-wrap
-    align-items: stretch;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
